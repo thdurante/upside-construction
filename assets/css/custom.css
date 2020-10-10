@@ -1,0 +1,19 @@
+.upside-logo {
+  width: 80%;
+  height: 70px;
+  background-image: url("../images/upside-logo.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+  background-size: contain;
+  margin-bottom: 15px;
+}
+
+.custom-divider {
+  height: 1px;
+  width: 200px;
+  background-color: white;
+  opacity: .3;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}

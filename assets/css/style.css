@@ -11851,7 +11851,7 @@ textarea.form-input {
 	position: absolute;
 	left: 0;
 	top:  0;
-	opacity: .47;
+	opacity: .85;
 }
 
 .bg-overlay-black.bg-overlay-black_02,
@@ -12431,5 +12431,5 @@ body .text-color-red {
 
 /* Red colors */
 :root {
-	--main-color: #d20120;
+	--main-color: #a339cd;
 }
