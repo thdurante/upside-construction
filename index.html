@@ -35,59 +35,49 @@
 </head>
 <body class="preloader cursor-anim-enable">
   <div class="preloader__logoload-box">
-    <img class="preloader__logo" src="assets/images/logo-short.png" alt="logo">
+    <img class="preloader__logo" src="assets/images/logo-short-black.png" alt="logo">
     <div class="preloader__pulse"></div>
   </div>
 
-  <div class="pointer js-pointer" id="js-pointer">
-    <i class="pointer__inner fas fa-long-arrow-alt-right"></i>
-    <i class="pointer__inner fas fa-search"></i>
-    <i class="pointer__inner fas fa-link"></i>
-  </div>
-
   <main class="js-animsition-overlay" data-animsition-overlay="true">
-    <section id="up" class="pos-rel bg-img-cover" style="background-image:url(assets/images/home-image.jpg)">
-      <div class="bg-overlay-black"></div>
+    <div class="main-wrapper pos-rel anim-lines flex-min-height-100vh border-box-bottom">
+      <div class="padding-top-bottom-120 container text-center">
+        <div class="upside-logo"></div>
 
-      <div class="pos-rel anim-lines flex-min-height-100vh border-box-bottom">
-        <div class="padding-top-bottom-120 container text-center">
-          <div class="upside-logo"></div>
+        <h2 class="headline-xxs after-preloader-anim">
+          <span class="hidden-box d-block">
+            <span class="anim-slide">coming soon</span>
+          </span>
+        </h2>
 
-          <h2 class="headline-xxs after-preloader-anim">
-            <span class="hidden-box d-block">
-              <span class="anim-slide">coming soon</span>
-            </span>
-          </h2>
-
-          <div class="after-preloader-anim">
-            <div class="hidden-box">
-              <div class="anim-slide">
-                <div class="custom-divider d-inline-block"></div>
-              </div>
+        <div class="after-preloader-anim">
+          <div class="hidden-box">
+            <div class="anim-slide">
+              <div class="custom-divider d-inline-block"></div>
             </div>
           </div>
+        </div>
 
-          <div class="after-preloader-anim">
-            <span class="hidden-box d-block">
-              <span class="anim-slide">
-                <span class="headline-xxxxs"><i class="fa fa-envelope"></i></span>
-              </span>
-            </span>
-          </div>
-
-          <span class="after-preloader-anim">
-            <span class="hidden-box d-block">
-              <a href="mailto:atendimento@upside.expert"
-                 class="anim-slide headline-xxxxs margin-top-5 js-pointer-large js-animsition-link">
-                atendimento@upside.expert
-              </a>
+        <div class="after-preloader-anim">
+          <span class="hidden-box d-block">
+            <span class="anim-slide">
+              <span class="headline-xxxxs"><i class="fa fa-envelope"></i></span>
             </span>
           </span>
         </div>
-      </div>
 
-      <div id="js-particles"></div>
-    </section>
+        <span class="after-preloader-anim">
+          <span class="hidden-box d-block">
+            <a href="mailto:atendimento@upside.expert"
+               class="anim-slide headline-xxxxs margin-top-5 js-pointer-large js-animsition-link">
+              atendimento@upside.expert
+            </a>
+          </span>
+        </span>
+      </div>
+    </div>
+
+    <div id="js-particles"></div>
   </main>
 
   <!-- scripts -->
